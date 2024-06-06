@@ -38,10 +38,10 @@ module database '../modules/database.bicep' = {
         id: 'users'
         partitionKey: '/id'
       }
-      {
-        id: 'purchases'
-        partitionKey: '/id'
-      }
+      // {
+      //   id: 'purchases'
+      //   partitionKey: '/id'
+      // }
     ]
     cosmosDbBaseName: resourceBaseName
     location: location
